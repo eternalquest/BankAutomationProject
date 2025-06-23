@@ -1,0 +1,9 @@
+tkinter  # Standard library
+sqlite3  # Standard library
+os
+shutil
+time
+random
+Pillow
+project_mail  # Custom module
+captchageneratormodule  # Custom module
