@@ -1,7 +1,7 @@
 import gmail
 
 def send_mail_for_openacn(to_mail,uacno,uname,upass,udate):
-    con=gmail.GMail('nitishpokhriyal1@gmail.com','szpz mbwa tfhy tgun')
+    con=gmail.GMail('ENTER EMAIL','ENTER GOOGLE PASSCODE')
     sub="Account Opened with ABC Bank"
     body=f"""Dear {uname},
         Your account has been opened successfully with ABC Bank and details are
@@ -18,7 +18,7 @@ def send_mail_for_openacn(to_mail,uacno,uname,upass,udate):
     
 
 def send_otp(to_mail,uname,uotp):
-    con=gmail.GMail('nitishpokhriyal1@gmail.com','szpz mbwa tfhy tgun')
+    con=gmail.GMail('ENTER EMAIL','ENTER GOOGLE PASSCODE')
     sub="OTP password recovery"
     body=f"""Dear {uname},
     Your OTP to get password = {uotp}
@@ -32,7 +32,7 @@ def send_otp(to_mail,uname,uotp):
     con.send(msg)
 
 def send_otp_del(to_mail,uname,uotp):
-    con=gmail.GMail('nitishpokhriyal1@gmail.com','szpz mbwa tfhy tgun')
+    con=gmail.GMail('ENTER EMAIL','ENTER GOOGLE PASSCODE')
     sub="Account Deletion OTP"
     body=f"""Dear {uname},
     Your OTP to get password = {uotp}
